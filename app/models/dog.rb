@@ -1,5 +1,5 @@
 class Dog
-  attr_accessor: @name, @age, @breed
+  attr_accessor :name, :age, :breed
   @@all = []
 
   def self.new(name, age, breed)
